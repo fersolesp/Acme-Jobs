@@ -19,6 +19,7 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link-fernando" action="https://www.linkedin.com/in/fernando-luis-sola-espinosa-57180416b"/>
 			<acme:menu-suboption code="Reyes' Link" action="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=17710857660115944719"/>
 		</acme:menu-option>
 
