@@ -22,6 +22,7 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-josemaria" action="http://ev.us.es/"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-Reyes" action="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=17710857660115944719"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-fernando" action="https://www.linkedin.com/in/fernando-luis-sola-espinosa-57180416b"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link-vanessa" action="https://github.com/"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
