@@ -29,3 +29,5 @@ The following tools and components are required:
 The contributors to this proyect are:
 
 	Reyes Blasco Cuadrado (reyblacua@alum.us.es)
+  Fernando Luis Sola Espinosa (fersolesp@alum.us.es) 
+
