@@ -27,3 +27,6 @@ The following tools and components are required:
 	- Lombok 1.18.8
 
 
+	The contributors to this proyect are:
+
+	Pablo Cardenal Gamito (pablo.cardenal117@gmail.com\pabcargam@alum.us.es)
