@@ -27,8 +27,9 @@ The following tools and components are required:
 	- Lombok 1.18.8
 
 
-The contributors to this proyect are:
+	The contributors to this proyect are:
 
+	Pablo Cardenal Gamito (pablo.cardenal117@gmail.com\pabcargam@alum.us.es)
 	Reyes Blasco Cuadrado (reyblacua@alum.us.es)
   Fernando Luis Sola Espinosa (fersolesp@alum.us.es) 
   José María Cornac Fisas (joscorfis@alum.us.es)
