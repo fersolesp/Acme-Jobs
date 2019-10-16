@@ -33,7 +33,8 @@ master.menu.anonymous.favourite-link = Jose Maria's Link
 master.menu.anonymous.favourite-link-Reyes =Reyes' Favourite link
 master.menu.anonymous.favourite-link-fernando = Fernando's favourite link
 master.menu.anonymous.favourite-link-vanessa = Vanessa's favourite link
-
+master.menu.anonymous.shout.list = Shouts' list
+master.menu.anonymous.shout.create = Create a shout
 
 # master.menu.administrator ###################################################
 
