@@ -29,10 +29,13 @@ master.menu.sign-out = Sign out
 
 master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link-pablo = Pablo's favourite link
-master.menu.anonymous.favourite-link = Jose Maria's Link
+master.menu.anonymous.favourite-link-josemaria = Jose Maria's Favourite link
 master.menu.anonymous.favourite-link-Reyes =Reyes' Favourite link
 master.menu.anonymous.favourite-link-fernando = Fernando's favourite link
 master.menu.anonymous.favourite-link-vanessa = Vanessa's favourite link
+master.menu.anonymous.shout.list = List shouts
+master.menu.anonymous.shout.create = Create a shout
+
 
 
 # master.menu.administrator ###################################################
