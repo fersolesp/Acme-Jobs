@@ -15,6 +15,8 @@ import acme.framework.services.AbstractListService;
 @Service
 public class AnonymousShoutListService implements AbstractListService<Anonymous, Shout> {
 
+	// Internal state ---------------------------------------------------------
+
 	@Autowired
 	AnonymousShoutRepository repository;
 

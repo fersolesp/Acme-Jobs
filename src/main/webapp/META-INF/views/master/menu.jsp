@@ -19,12 +19,13 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-pablo" action="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=7738301078718444385"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-josemaria" action="http://ev.us.es/"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-Reyes" action="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=17710857660115944719"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-fernando" action="https://www.linkedin.com/in/fernando-luis-sola-espinosa-57180416b"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-vanessa" action="https://github.com/"/>
-			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.shout.create" action="/anonymous/shout/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
 		</acme:menu-option>
 
