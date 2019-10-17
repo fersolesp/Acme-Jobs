@@ -16,13 +16,15 @@ import acme.framework.services.AbstractCreateService;
 @Service
 public class AnonymousShoutCreateService implements AbstractCreateService<Anonymous, Shout> {
 
+	// Internal state ---------------------------------------------------------
+
 	@Autowired
 	AnonymousShoutRepository repository;
 
 
 	@Override
 	public boolean authorise(final Request<Shout> request) {
-		// TODO Auto-generated method stub
+
 		assert request != null;
 
 		return true;
@@ -30,7 +32,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 
 	@Override
 	public Shout instantiate(final Request<Shout> request) {
-		// TODO Auto-generated method stub
+
 		assert request != null;
 
 		Shout result;
@@ -48,7 +50,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 
 	@Override
 	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
-		// TODO Auto-generated method stub
+
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -59,7 +61,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 
 	@Override
 	public void bind(final Request<Shout> request, final Shout entity, final Errors errors) {
-		// TODO Auto-generated method stub
+
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -69,16 +71,15 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 
 	@Override
 	public void validate(final Request<Shout> request, final Shout entity, final Errors errors) {
-		// TODO Auto-generated method stub
+
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
-
 	}
 
 	@Override
 	public void create(final Request<Shout> request, final Shout entity) {
-		// TODO Auto-generated method stub
+
 		assert request != null;
 		assert entity != null;
 
