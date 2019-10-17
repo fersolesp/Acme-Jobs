@@ -31,9 +31,11 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 	@Override
 	public Collection<Shout> findMany(final Request<Shout> request) {
 		assert request != null;
+
 		Collection<Shout> result;
 
 		result = this.repository.findMany();
+
 		return result;
 	}
 
@@ -44,6 +46,7 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 		assert model != null;
 
 		request.unbind(entity, model, "author", "text", "moment");
+
 	}
 
 }
