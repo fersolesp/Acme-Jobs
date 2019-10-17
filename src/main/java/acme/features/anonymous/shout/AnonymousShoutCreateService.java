@@ -16,6 +16,7 @@ import acme.framework.services.AbstractCreateService;
 @Service
 public class AnonymousShoutCreateService implements AbstractCreateService<Anonymous, Shout> {
 
+
 	// Internal state ---------------------------------------------------------
 
 	@Autowired

@@ -1,5 +1,3 @@
-
-
 package acme.features.anonymous.shout;
 
 import javax.annotation.PostConstruct;
@@ -24,6 +22,7 @@ public class AnonymousShoutController extends AbstractController<Anonymous, Shou
 
 	@Autowired
 	private AnonymousShoutCreateService	createService;
+
 
 	// Constructors -----------------------------------------------------------
 
