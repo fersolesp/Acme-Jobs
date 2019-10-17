@@ -15,6 +15,7 @@ import acme.framework.services.AbstractListService;
 @Service
 public class AnonymousShoutListService implements AbstractListService<Anonymous, Shout> {
 
+
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
@@ -30,6 +31,7 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 
 	@Override
 	public Collection<Shout> findMany(final Request<Shout> request) {
+
 		assert request != null;
 
 		Collection<Shout> result;
@@ -41,6 +43,7 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 
 	@Override
 	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
+
 		assert request != null;
 		assert entity != null;
 		assert model != null;

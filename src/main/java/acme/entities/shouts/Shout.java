@@ -29,4 +29,5 @@ public class Shout extends DomainEntity {
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
 	private Date				moment;
+
 }
