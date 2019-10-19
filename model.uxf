@@ -62,18 +62,6 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>272</x>
-      <y>80</y>
-      <w>24</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=..
-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
       <x>672</x>
       <y>232</y>
       <w>80</w>
@@ -300,7 +288,7 @@ has v</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>200</x>
-      <y>392</y>
+      <y>304</y>
       <w>264</w>
       <h>88</h>
     </coordinates>
@@ -310,6 +298,22 @@ Shout
 + moment: Date {Temporal(TIMESTAMP), Past}
 + author: String {NotBlank}
 + text: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>400</y>
+      <w>264</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+CornacBulletin
+--
++ moment: Date {Temporal(TIMESTAMP), Past}
++ publisher: String {NotBlank}
++ publication: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
