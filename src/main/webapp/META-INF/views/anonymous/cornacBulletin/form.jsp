@@ -7,6 +7,6 @@
 	<acme:form-textbox code="anonymous.cornacBulletin.form.label.publisher" path="publisher"/>
 	<acme:form-textarea code="anonymous.cornacBulletin.form.label.publication" path="publication"/>
 	
-	<acme:form-submit code="anonymous.cornacBulletin.form.button.create" action="/anonymous/cornacBulletin/create"/>
+	<acme:form-submit code="anonymous.cornacBulletin.form.button.create" action="/anonymous/cornac-bulletin/create"/>
 	<acme:form-return code="anonymous.cornacBulletin.form.button.return"/>
 </acme:form>
