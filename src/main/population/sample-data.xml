@@ -16,8 +16,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
-	
-	<!-- Shouts -->
+		
+		<!-- Shouts -->
 
 	<bean id="shout01" class="acme.entities.shouts.Shout">
 		<property name="author" value="John Doe"/>
@@ -35,5 +35,25 @@
 		<property name="author" value="Foo Bar"/>
 		<property name="text" value="Just turning 20!"/>
 		<property name="moment" value="2019/09/07 00:00"/>
+	</bean>
+		
+	<!-- PradasBulletin -->
+
+	<bean id="pradasBulletin01" class="acme.entities.pradasBulletin.PradasBulletin">
+		<property name="person" value="Emily Williams"/>
+		<property name="information" value="Hello everybody"/>
+		<property name="moment" value="2019/07/09 10:10"/>
+	</bean>
+
+	<bean id="pradasBulletin02" class="acme.entities.pradasBulletin.PradasBulletin">
+		<property name="person" value="Barbara Simons"/>
+		<property name="information" value="I'm nervous"/>
+		<property name="moment" value="2019/08/10 10:55"/>
+	</bean>
+	
+	<bean id="pradasBulletin03" class="acme.entities.pradasBulletin.PradasBulletin">
+		<property name="person" value="Betty Pepper"/>
+		<property name="information" value="It's too late"/>
+		<property name="moment" value="2019/10/07 00:00"/>
 	</bean>
 </beans>
