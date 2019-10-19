@@ -299,8 +299,8 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>392</y>
+      <x>208</x>
+      <y>336</y>
       <w>264</w>
       <h>88</h>
     </coordinates>
@@ -310,6 +310,22 @@ Shout
 + moment: Date {Temporal(TIMESTAMP), Past}
 + author: String {NotBlank}
 + text: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>552</x>
+      <y>408</y>
+      <w>248</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+cardenalBulletin
+--
++ moment: Date {Temporal(TIMESTAMP), Past}
++ developer: String {NotBlank}
++ skills: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
