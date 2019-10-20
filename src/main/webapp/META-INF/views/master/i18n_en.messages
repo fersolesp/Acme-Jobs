@@ -35,7 +35,8 @@ master.menu.anonymous.favourite-link-fernando = Fernando's favourite link
 master.menu.anonymous.favourite-link-vanessa = Vanessa's favourite link
 master.menu.anonymous.shout.create = Shout!
 master.menu.anonymous.shout.list = List shouts
-
+master.menu.anonymous.sola-bulletin.create = Create a Sola bulletin
+master.menu.anonymous.sola-bulletin.list = Sola bulletins list
 
 # master.menu.administrator ###################################################
 
