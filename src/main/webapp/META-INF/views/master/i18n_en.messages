@@ -35,9 +35,10 @@ master.menu.anonymous.favourite-link-fernando = Fernando's favourite link
 master.menu.anonymous.favourite-link-vanessa = Vanessa's favourite link
 master.menu.anonymous.shout.create = Shout!
 master.menu.anonymous.shout.list = List shouts
-master.menu.anonymous.cardenalBulletin.list = List Cardenal's Bulletins
-master.menu.anonymous.cardenalBulletin.create = Cardenal Bulletin!
-
+master.menu.anonymous.cardenalBulletin.list = List Cardenal bulletins
+master.menu.anonymous.cardenalBulletin.create = Create a Cardenal bulletin!
+master.menu.anonymous.sola-bulletin.create = Create a Sola bulletin!
+master.menu.anonymous.sola-bulletin.list = List Sola bulletins
 
 # master.menu.administrator ###################################################
 

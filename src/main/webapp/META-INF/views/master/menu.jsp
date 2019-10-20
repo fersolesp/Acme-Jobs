@@ -29,6 +29,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.cardenalBulletin.create" action="/anonymous/cardenal-bulletin/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.cardenalBulletin.list" action="/anonymous/cardenal-bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.sola-bulletin.create" action="/anonymous/sola-bulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.sola-bulletin.list" action="/anonymous/sola-bulletin/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
