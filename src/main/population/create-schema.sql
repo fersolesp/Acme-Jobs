@@ -20,6 +20,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `cardenal_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `developer` varchar(255),
+        `moment` datetime(6),
+        `skills` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,

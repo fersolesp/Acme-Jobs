@@ -37,7 +37,26 @@
 		<property name="moment" value="2019/09/07 00:00"/>
 	</bean>
 	
-	<!-- SolaBulletins -->
+	<!-- CardenalBulletins -->
+
+	<bean id="cardenalBulletin01" class="acme.entities.cardenalBulletins.CardenalBulletin">
+		<property name="developer" value="Federico Costa"/>
+		<property name="skills" value="Java"/>
+		<property name="moment" value="2019/09/09 13:00"/>
+	</bean>
+
+	<bean id="cardenalBulletin02" class="acme.entities.cardenalBulletins.CardenalBulletin">
+		<property name="developer" value="Josh Williams"/>
+		<property name="skills" value="PL/SQL"/>
+		<property name="moment" value="2019/06/09 15:55"/>
+	</bean>
+	
+	<bean id="cardenalBulletin03" class="acme.entities.cardenalBulletins.CardenalBulletin">
+		<property name="developer" value="Robert Wellis"/>
+		<property name="skills" value="C++"/>
+		<property name="moment" value="2019/09/12 00:00"/>
+
+    <!-- SolaBulletins -->
 
 	<bean id="solaBulletin01" class="acme.entities.solaBulletins.SolaBulletin">
 		<property name="cybernaut" value="Juan Perez"/>
