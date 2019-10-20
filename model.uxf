@@ -299,8 +299,24 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>208</x>
-      <y>336</y>
+      <x>568</x>
+      <y>456</y>
+      <w>296</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+PradasBulletin
+--
++ moment: Date {Temporal(TIMESTAMP), Past}
++ person: String {NotBlank}
++ information: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>248</x>
+      <y>464</y>
       <w>264</w>
       <h>88</h>
     </coordinates>

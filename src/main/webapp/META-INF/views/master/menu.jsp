@@ -27,6 +27,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-vanessa" action="https://github.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.create" action="/anonymous/shout/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.pradas-bulletin.create" action="/anonymous/pradas-bulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.pradas-bulletin.list" action="/anonymous/pradas-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.cardenalBulletin.create" action="/anonymous/cardenal-bulletin/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.cardenalBulletin.list" action="/anonymous/cardenal-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.sola-bulletin.create" action="/anonymous/sola-bulletin/create"/>

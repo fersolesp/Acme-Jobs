@@ -38,6 +38,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `pradas_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `information` varchar(255),
+        `moment` datetime(6),
+        `person` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
