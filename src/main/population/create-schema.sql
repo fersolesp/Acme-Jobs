@@ -28,6 +28,15 @@
         `user_name` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
+    
+    create table `cardenal_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `developer` varchar(255),
+        `moment` datetime(6),
+        `skills` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
 
     create table `consumer` (
        `id` integer not null,
@@ -35,6 +44,15 @@
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `pradas_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `information` varchar(255),
+        `moment` datetime(6),
+        `person` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
