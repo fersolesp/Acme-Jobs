@@ -47,6 +47,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `cornac_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `moment` datetime(6),
+        `publication` varchar(255),
+        `publisher` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `pradas_bulletin` (
        `id` integer not null,
         `version` integer not null,

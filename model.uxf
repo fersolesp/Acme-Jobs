@@ -331,8 +331,8 @@ Shout
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>400</y>
+      <x>8</x>
+      <y>448</y>
       <w>264</w>
       <h>88</h>
     </coordinates>
@@ -342,9 +342,9 @@ CornacBulletin
 + moment: Date {Temporal(TIMESTAMP), Past}
 + publisher: String {NotBlank}
 + publication: String {NotBlank}</panel_attributes>
-      <additional_attributes/>
+    <additional_attributes/>
   </element>
-   <element>
+  <element>
     <id>UMLClass</id>
     <coordinates>
       <x>280</x>
@@ -374,20 +374,6 @@ cardenalBulletin
 + moment: Date {Temporal(TIMESTAMP), Past}
 + developer: String {NotBlank}
 + skills: String {NotBlank}</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>0</x>
-      <y>456</y>
-      <w>264</w>
-      <h>88</h>      
-SolaBulletin
---
-+ moment: Date {Temporal(TIMESTAMP), Past}
-+ cybernaut: String {NotBlank}
-+ contribution: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
