@@ -331,6 +331,22 @@ Shout
   <element>
     <id>UMLClass</id>
     <coordinates>
+      <x>496</x>
+      <y>480</y>
+      <w>304</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+BlascoBulletin
+--
++ moment: Date {Temporal(TIMESTAMP),Past}
++ userName: String {NotBlank}
++ description: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
       <x>552</x>
       <y>408</y>
       <w>248</w>
