@@ -1,12 +1,12 @@
 
-package acme.features.anonymous.shout;
+package acme.features.anonymous.solaBulletin;
 
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.shouts.Shout;
+import acme.entities.solaBulletins.SolaBulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -14,16 +14,16 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousShoutCreateService implements AbstractCreateService<Anonymous, Shout> {
+public class AnonymousSolaBulletinCreateService implements AbstractCreateService<Anonymous, SolaBulletin> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AnonymousShoutRepository repository;
+	AnonymousSolaBulletinRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<Shout> request) {
+	public boolean authorise(final Request<SolaBulletin> request) {
 
 		assert request != null;
 
@@ -31,35 +31,35 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	}
 
 	@Override
-	public Shout instantiate(final Request<Shout> request) {
+	public SolaBulletin instantiate(final Request<SolaBulletin> request) {
 
 		assert request != null;
 
-		Shout result;
+		SolaBulletin result;
 		Date moment;
 
 		moment = new Date(System.currentTimeMillis() - 1);
 
-		result = new Shout();
-		result.setAuthor("John Doe");
-		result.setText("Lorem ipsum!");
+		result = new SolaBulletin();
+		result.setCybernaut("Adam Blunt");
+		result.setContribution("Here we go again!");
 		result.setMoment(moment);
 
 		return result;
 	}
 
 	@Override
-	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
+	public void unbind(final Request<SolaBulletin> request, final SolaBulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "author", "text");
+		request.unbind(entity, model, "cybernaut", "contribution");
 
 	}
 
 	@Override
-	public void bind(final Request<Shout> request, final Shout entity, final Errors errors) {
+	public void bind(final Request<SolaBulletin> request, final SolaBulletin entity, final Errors errors) {
 
 		assert request != null;
 		assert entity != null;
@@ -69,14 +69,14 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	}
 
 	@Override
-	public void validate(final Request<Shout> request, final Shout entity, final Errors errors) {
+	public void validate(final Request<SolaBulletin> request, final SolaBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
 	}
 
 	@Override
-	public void create(final Request<Shout> request, final Shout entity) {
+	public void create(final Request<SolaBulletin> request, final SolaBulletin entity) {
 		assert request != null;
 		assert entity != null;
 
