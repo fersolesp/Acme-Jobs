@@ -331,6 +331,22 @@ Shout
   <element>
     <id>UMLClass</id>
     <coordinates>
+      <x>200</x>
+      <y>400</y>
+      <w>264</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+CornacBulletin
+--
++ moment: Date {Temporal(TIMESTAMP), Past}
++ publisher: String {NotBlank}
++ publication: String {NotBlank}</panel_attributes>
+      <additional_attributes/>
+  </element>
+   <element>
+    <id>UMLClass</id>
+    <coordinates>
       <x>280</x>
       <y>448</y>
       <w>304</w>
@@ -366,9 +382,7 @@ cardenalBulletin
       <x>0</x>
       <y>456</y>
       <w>264</w>
-      <h>88</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+      <h>88</h>      
 SolaBulletin
 --
 + moment: Date {Temporal(TIMESTAMP), Past}
