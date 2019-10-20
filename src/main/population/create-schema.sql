@@ -28,7 +28,7 @@
         `user_name` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-    
+
     create table `cardenal_bulletin` (
        `id` integer not null,
         `version` integer not null,
@@ -71,6 +71,15 @@
         `author` varchar(255),
         `moment` datetime(6),
         `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `sola_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `contribution` varchar(255),
+        `cybernaut` varchar(255),
+        `moment` datetime(6),
         primary key (`id`)
     ) engine=InnoDB;
 

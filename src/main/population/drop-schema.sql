@@ -25,7 +25,6 @@
 
     drop table if exists `authenticated`;
 
-
     drop table if exists `blasco_bulletin`;
 
     drop table if exists `cardenal_bulletin`;
@@ -37,6 +36,8 @@
     drop table if exists `provider`;
 
     drop table if exists `shout`;
+
+    drop table if exists `sola_bulletin`;
 
     drop table if exists `user_account`;
 
