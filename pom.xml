@@ -18,11 +18,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>acme</groupId>
-	<artifactId>Acme-Jobs-1.0</artifactId>
+	<artifactId>acme-jobs</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 
-	<name>Acme-Jobs</name>
+	<name>acme-jobs</name>
 	<description>This is the Acme Jobs project by the students of Design &amp; Testing.</description>
 
 	<parent>
